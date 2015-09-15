@@ -1,0 +1,15 @@
+{
+  "name": "esc-ctrlchars",
+  "version": "1.0.0",
+  "description": "Escape control characters.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashdot/esc-ctrlchars.git"
+  },
+  "author": "dashdot",
+  "license": "MIT",
+}

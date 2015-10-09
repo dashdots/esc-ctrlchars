@@ -10,10 +10,9 @@ const MAP = {
   '+': '\\+',
   '-': '\\-',
   '`': '\\`',
-  '=': '\=',
   '<': '&lt;',
   '>': '&gt;',
   '&': '&amp;'
 };
-const EXP = /[\*\(\)\[\]\+\-\\_`=#<>]/g;
+const EXP = /[\*\(\)\[\]\+\-\\_`#<>]/g;
 module.exports = string => string.replace(EXP, m => map[m]);
